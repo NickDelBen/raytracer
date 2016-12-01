@@ -38,7 +38,7 @@ purge: clean
 	#Remove any binaries from the output directory
 	rm -rf $(DB)
 	#Remove the source tarball if it exists
-	rm -rf $(TAR_FILE)
+	rm -rf $(project).tar.gz
 	#Remove the documentation files
 	rm -rf $(DD)
 
@@ -54,10 +54,10 @@ documentation:
 	#Generating documentaton
 	doxygen Doxyfile
 
-#Tar the project to make it easier to move around
+# Tar the project to make it easier to move around
 tarball:
 	# Creating tarball
-	tar -zcv -f $(project).tar.gz {m,M}akefile src README {D,d}oxyfile
+	tar -zcv -f $(project).tar.gz {m,M}akefile src README{.src,,.txt,.md} {D,d}oxyfile
 
 
 ################################################

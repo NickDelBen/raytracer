@@ -6,6 +6,11 @@
 bin/
 obj/
 
+# Compressed files
+*.tar
+*.gz
+*.zip
+
 # Garbage
 .DS_Store
 .DS_Store?
