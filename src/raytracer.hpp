@@ -20,7 +20,7 @@
 #define MAXIMUM_RAYTRACE_DEPTH 1
 #define MAXIMUM_DISTANCE 25000.0
 #define DEFAULT_REFLECTIVE_COEFFICIENT 1.0
-#define REFLECTION_BIAS 40
+#define REFLECTION_BIAS 60
 
 // Defines a raytracer for a 3d world
 class Raytracer
