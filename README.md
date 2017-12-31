@@ -1,6 +1,6 @@
 # Raytracer
 
-This is my implementation of a [raytracer](https://en.wikipedia.org/wiki/Ray_tracing_(graphics), "Raytracer Information").
+This is my implementation of a [raytracer](https://en.wikipedia.org/wiki/Ray_tracing_(graphics) "Raytracer Information").
 
 Requirements:  
     Requires [opengl](https://www.opengl.org/wiki/Getting_Started, "Getting started with opengl")
